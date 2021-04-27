@@ -1,0 +1,22 @@
+{
+  "name": "stats-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnChich/stats-preview-card-component-main.git"
+  },
+  "author": "Richie Jaimes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnChich/stats-preview-card-component-main/issues"
+  },
+  "homepage": "https://github.com/UnChich/stats-preview-card-component-main#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
