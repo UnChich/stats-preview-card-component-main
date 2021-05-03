@@ -1,91 +1,69 @@
-// Colors
-$main-background: #0a0c1c;
-$card-background: #1b1937;
-$accent: #ab5cdb;
-$white: #fff;
-
-// typography
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 body {
   font-family: "Inter", sans-serif;
-  color: $white;
-}
+  color: #fff; }
 
 .main-body {
-  background: $main-background;
-  padding: 5.5rem 1.5rem;
-}
+  background: #0a0c1c;
+  padding: 5.5rem 1.5rem; }
 
 .main-card {
   width: 85vw;
-  background: $card-background;
+  background: #1b1937;
   border-radius: 8px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 #heroImageGroup {
-  margin-bottom: 2.5rem;
-}
+  margin-bottom: 2.5rem; }
 
 #heroImage {
   height: 15rem;
   background: url(/images/image-header-mobile.jpg);
   background-size: cover;
   mix-blend-mode: multiply;
-  opacity: 0.75;
-}
+  opacity: 0.75; }
 
 #heroImageMask {
   height: 100%;
   width: 100%;
   padding: 0;
-  background: $accent;
-  opacity: 0.75;
-}
+  background: #ab5cdb;
+  opacity: 0.75; }
 
 #mainText {
-  margin-bottom: 1.75rem;
-}
+  margin-bottom: 1.75rem; }
 
 h1 {
   font-size: 1.75rem;
   font-weight: 700;
-  line-height: 2rem;
-  span {
-    color: $accent;
-  }
-}
+  line-height: 2rem; }
+  h1 span {
+    color: #ab5cdb; }
 
 p {
   font-weight: 400;
   font-size: 0.9375rem;
   line-height: 1.5625rem;
-  opacity: 0.75;
-}
+  opacity: 0.75; }
 
 .stats {
   margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
+  margin-bottom: 0.75rem; }
 
 h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  line-height: 1.8125rem;
-}
+  line-height: 1.8125rem; }
 
 .p-group {
   font-weight: 500;
   font-size: 0.75rem;
   letter-spacing: 1px;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .attribution {
   font-size: 11px;
-  text-align: center;
-}
+  text-align: center; }
+
 .attribution a {
-  color: hsl(228, 45%, 44%);
-}
+  color: #3e52a3; }

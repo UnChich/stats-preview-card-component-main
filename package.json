@@ -17,6 +17,23 @@
   },
   "homepage": "https://github.com/UnChich/stats-preview-card-component-main#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "bootstrap": "^4.6.0"
+  },
+  "devDependencies": {
+    "bootstrap-social": "^5.1.1",
+    "browser-sync": "^2.26.14",
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-inject": "^5.0.5",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^5.0.0"
   }
 }
